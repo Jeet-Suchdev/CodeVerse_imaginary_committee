@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVerse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./event.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav_custom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+          <div class="container-fluid">
+            <img src="./logo.png" class="nav_logo">
+            <a class="navbar-brand" href="index.html">CodeVerse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html" onclick="localStorage.setItem('skipIntro', 'true')">Home</a>
+                <a class="nav-link active" href="about.html">About Us</a>
+                <a class="nav-link" href="#">Events</a>
+                <a class="nav-link" href="team.html">Team</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <div>
+      <section id=timeline>
+        <h1>Past Events</h1>
+        <div class="demo-card-wrapper">
+          <div class="demo-card demo-card--step1" data-delay="0.2">
+            <div class="head">
+              <div class="number-box">
+                <span>01</span>
+              </div>
+              <h2 class="event_header">CodeQuest<span class="small">2025</span></h2>
+            </div>
+            <div class="body">
+              <img src="./hackathon.jpg" alt="Graphic">
+            </div>
+          </div>
+      
+          <div class="demo-card demo-card--step2" data-delay="0.4">
+            <div class="head">
+              <div class="number-box">
+                <span>02</span>
+              </div>
+              <h2 class="event_header">ai workshop<span class="small">2025</span></h2>
+            </div>
+            <div class="body">
+              <img src="./workshop.jpg" alt="Graphic">
+            </div>
+          </div>
+      
+          <div class="demo-card demo-card--step3" data-delay="0.6">
+            <div class="head">
+              <div class="number-box">
+                <span>03</span>
+              </div>
+              <h2 class="event_header">faisca<span class="small">2025</span></h2>
+            </div>
+            <div class="body">
+              <img src="./fesca.jpg" alt="Graphic">
+            </div>
+          </div>
+      
+          <div class="demo-card demo-card--step4" data-delay="0.8">
+            <div class="head">
+              <div class="number-box">
+                <span>04</span>
+              </div>
+              <h2 class="event_header">convocation<span class="small">2024</span></h2>
+            </div>
+            <div class="body">
+              <img src="./convocation.jpg" alt="Graphic">
+            </div>
+          </div>
+      
+          <div class="demo-card demo-card--step5" data-delay="1.0">
+            <div class="head">
+              <div class="number-box">
+                <span>05</span>
+              </div>
+              <h2 class="event_header">DJ Night<span class="small">2024</span></h2>
+            </div>
+            <div class="body">
+              <img src="./djnight.jpg" alt="Graphic">
+            </div>
+          </div>
+
+          <div class="demo-card demo-card--step6" data-delay="1.2">
+            <div class="head">
+              <div class="number-box">
+                <span>06</span>
+              </div>
+              <h2 class="event_header">howzzat<span class="small">2024</span></h2>
+            </div>
+            <div class="body">
+              <img src="./howzthat.jpeg" alt="Graphic">
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 footer_custom footer_event">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0">© 2025 CodeVerse, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="http://www.twitter.com/"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="http://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="http://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+      </ul>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./event.js"></script>
+</body>
+</html>
